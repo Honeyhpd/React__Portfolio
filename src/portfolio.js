@@ -148,7 +148,7 @@ const educationInfo = {
     },
     {
       schoolName: "St.Stella's Matriculation Higher Secondary School, Anjugramam, Kanyakumari",
-      logo: require("./assets/images/stellas.jpg"),
+      logo: require("./assets/images/stellas-hsc.jpg"),
       subHeader: "Higher Sceondary HSC",
       duration: " 2021 - 2022",
       desc: "92.5%",
@@ -156,7 +156,7 @@ const educationInfo = {
     },
     {
       schoolName: "St.Stella's Matriculation Higher Secondary School, Anjugramam Kanyakumari",
-      logo: require("./assets/images/stellas.jpg"),
+      logo: require("./assets/images/stellas-sslc.jpg"),
       subHeader: "Secondary SSLC",
       duration: " 2019 - 2020",
       desc: "90.2%",
