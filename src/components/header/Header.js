@@ -1,4 +1,4 @@
-import React, {useContext} from "react";
+import React, { useContext } from "react";
 import Headroom from "react-headroom";
 import "./Header.scss";
 import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
@@ -7,28 +7,21 @@ import {
   greeting,
   workExperiences,
   skillsSection,
-  openSource,
   blogSection,
-  talkSection,
   achievementSection,
   resumeSection,
-  bigProjects,
-  podcastSection
+  bigProjects
 } from "../../portfolio";
-import StartupProject from "../../containers/StartupProjects/StartupProject";
-import Projects from "../../containers/projects/Projects";
 
 function Header() {
-  const {isDark} = useContext(StyleContext);
+  const { isDark } = useContext(StyleContext);
   const viewExperience = workExperiences.display;
-  const viewOpenSource = openSource.display;
   const viewSkills = skillsSection.display;
   const viewAchievement = achievementSection.display;
   const viewBlog = blogSection.display;
-  const viewTalks = talkSection.display;
   const viewResume = resumeSection.display;
   const viewProject = bigProjects.display;
-  const viewPodcast = podcastSection.display;
+
   return (
     <Headroom>
       <header className={isDark ? "dark-menu header" : "header"}>
@@ -41,7 +34,7 @@ function Header() {
         <label
           className="menu-icon"
           htmlFor="menu-btn"
-          style={{color: "white"}}
+          style={{ color: "white" }}
         >
           <span className={isDark ? "navicon navicon-dark" : "navicon"}></span>
         </label>
@@ -90,4 +83,5 @@ function Header() {
     </Headroom>
   );
 }
+
 export default Header;
