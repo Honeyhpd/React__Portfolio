@@ -2,6 +2,8 @@
 
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
+import stellasHSC from "./assets/images/stellas-hsc.jpg";
+import stellasSSLC from "./assets/images/stellas-sslc.jpg";
 
 // Splash Screen
 
@@ -148,7 +150,7 @@ const educationInfo = {
     },
     {
       schoolName: "St.Stella's Matriculation Higher Secondary School, Anjugramam, Kanyakumari",
-      logo: require("./assets/images/stellas-hsc.jpg"),
+      logo: stellasHSC,
       subHeader: "Higher Sceondary HSC",
       duration: " 2021 - 2022",
       desc: "92.5%",
@@ -156,10 +158,11 @@ const educationInfo = {
     },
     {
       schoolName: "St.Stella's Matriculation Higher Secondary School, Anjugramam Kanyakumari",
-      logo: require("./assets/images/stellas-sslc.jpg"),
+      logo: stellasSSLC,
       subHeader: "Secondary SSLC",
       duration: " 2019 - 2020",
       desc: "90.2%",
+      descBullets: []
       }
   ]
 };
