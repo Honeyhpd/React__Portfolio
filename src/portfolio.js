@@ -2,7 +2,7 @@
 
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation";
-import sslcLogo from "./assets/images/sslc-logo.jpg";
+import sslcLogo from "./assets/images/sslc-logo.jpeg";
 import hscLogo from "./assets/images/hsc-logo.jpeg";
 
 
